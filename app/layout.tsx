@@ -27,7 +27,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="relative min-h-screen">
+          <header className="absolute right-5 top-5">
+            <span className="text-sm font-semibold tracking-tight text-accent">
+              Zomato-lite
+            </span>
+          </header>
+          {children}
+        </div>
       </body>
     </html>
   );
