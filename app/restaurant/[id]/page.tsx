@@ -92,7 +92,7 @@ export default function RestaurantPage() {
       )}
 
       {data.latestReview && (
-        <section className="mt-10 rounded-xl border border-amber-200 bg-amber-50/70 p-5">
+        <section className="mt-10 rounded-xl border border-red-200 bg-red-50/70 p-5">
           <p className="text-xs font-medium uppercase tracking-wide text-neutral-500">
             Latest review
           </p>
